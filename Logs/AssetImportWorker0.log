@@ -1,0 +1,343 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/FPT_SE/KI7/PRU212/11_ZombieHunter_FnProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51415
+Successfully changed project path to: D:/FPT_SE/KI7/PRU212/11_ZombieHunter_FnProject
+D:/FPT_SE/KI7/PRU212/11_ZombieHunter_FnProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3040] Host "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 2843068801 [EditorId] 2843068801 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MT1VCNOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3040] Host "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 2843068801 [EditorId] 2843068801 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MT1VCNOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 58.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path D:/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/FPT_SE/KI7/PRU212/11_ZombieHunter_FnProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'D:/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003797 seconds.
+- Loaded All Assemblies, in  1.042 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.738 seconds
+Domain Reload Profiling: 1783ms
+	BeginReloadAssembly (439ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (397ms)
+		LoadAssemblies (429ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (390ms)
+			TypeCache.Refresh (379ms)
+				TypeCache.ScanAssembly (336ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (742ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.854 seconds
+Refreshing native plugins compatible for Editor in 6.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.468 seconds
+Domain Reload Profiling: 3323ms
+	BeginReloadAssembly (430ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (1246ms)
+		LoadAssemblies (892ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (608ms)
+			TypeCache.Refresh (538ms)
+				TypeCache.ScanAssembly (473ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1469ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (934ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (721ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 63.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (376.4 KB). Loaded Objects now: 3710.
+Memory consumption went from 138.7 MB to 138.3 MB.
+Total: 49.695700 ms (FindLiveObjects: 2.123600 ms CreateObjectMapping: 2.508100 ms MarkObjects: 43.955700 ms  DeleteObjects: 1.102500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 115615.015491 seconds.
+  path: Assets/Prefabs/UI/UI.prefab
+  artifactKey: Guid(275fcd0943fb1ac4fa1dffc395f4ec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/UI.prefab using Guid(275fcd0943fb1ac4fa1dffc395f4ec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726eba4a4e4a541844ca854dc98efff2') in 0.187205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 11.242660 seconds.
+  path: Assets/Asset Packs/Zombie/demo.unity
+  artifactKey: Guid(51c2b7bc917069942a0ac4a10bcabf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/demo.unity using Guid(51c2b7bc917069942a0ac4a10bcabf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749e645d077efbd4f3eadc30bb410863') in 0.001363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.602252 seconds.
+  path: Assets/Asset Packs/Zombie/Prefabs
+  artifactKey: Guid(4cd35e3077ada7240bc06e639de46208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Prefabs using Guid(4cd35e3077ada7240bc06e639de46208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffb44b62c9847339e88dada93cb262c') in 0.000648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049374 seconds.
+  path: Assets/Asset Packs/Zombie/Prefabs/Zombie.prefab
+  artifactKey: Guid(0584839bceadb844fa31b1ca352056ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Prefabs/Zombie.prefab using Guid(0584839bceadb844fa31b1ca352056ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6b1eb5f59f0e3c6b2a26f93bbbc0cb') in 0.235193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Import Request.
+  Time since last request: 3.569754 seconds.
+  path: Assets/Asset Packs/Zombie/ModelFBX/Zombie.FBX
+  artifactKey: Guid(fe2eb0b4e90413643a3ddc78c368140f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/ModelFBX/Zombie.FBX using Guid(fe2eb0b4e90413643a3ddc78c368140f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba61ba4188021c2fdcd179b1c07eac7') in 0.437294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 4.029480 seconds.
+  path: Assets/Asset Packs/Zombie/Materials/ground.mat
+  artifactKey: Guid(e7ed6772552b9e4488b1398f8282ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Materials/ground.mat using Guid(e7ed6772552b9e4488b1398f8282ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054b1ab7488fdad2a994e5dc5e38352f') in 0.094129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.913588 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Zombie@attack.FBX
+  artifactKey: Guid(3664e759213d0ba4e973427bbca518ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Zombie@attack.FBX using Guid(3664e759213d0ba4e973427bbca518ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8b4bbddf6d19731080a9816f4315b7') in 0.438469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Zombie@walk.FBX
+  artifactKey: Guid(1deae1f7338c5e84e80e873129793a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Zombie@walk.FBX using Guid(1deae1f7338c5e84e80e873129793a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563a404917a27bc57a369b12d2b92e86') in 0.528917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Zombie@idle.FBX
+  artifactKey: Guid(479c6ea636c365a4991b4935d2d6e09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Zombie@idle.FBX using Guid(479c6ea636c365a4991b4935d2d6e09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b5a82f7f414bbb847ea0033bbb1c51') in 0.478193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Import Request.
+  Time since last request: 91.774830 seconds.
+  path: Assets/Asset Packs/Low Poly Props/barrels/materials/mat 1/diffuse.png
+  artifactKey: Guid(200ba503199726a4db76c05f8bc5100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Props/barrels/materials/mat 1/diffuse.png using Guid(200ba503199726a4db76c05f8bc5100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3a2c360e2fb4e75240b2aab1d95166') in 0.041774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Asset Packs/Low Poly Props/barrels/materials/mat 1/normal.png
+  artifactKey: Guid(d580c6ef3b8477943bd2aa4489f9e955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Props/barrels/materials/mat 1/normal.png using Guid(d580c6ef3b8477943bd2aa4489f9e955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51311de419f980ae68261709110b9d72') in 0.059685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Asset Packs/Low Poly Props/barrels/materials/mat 1/specular.png
+  artifactKey: Guid(7434869c45acc834cb28656217f37fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Props/barrels/materials/mat 1/specular.png using Guid(7434869c45acc834cb28656217f37fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b616dcb5ed1d3fe20355855b134f28e') in 0.054980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.567597 seconds.
+  path: Assets/Asset Packs/Low Poly Props/barrels/materials/mat 2/diffuse 2.png
+  artifactKey: Guid(fb7ab64004c9ddb468bb43d2d3d0feed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Props/barrels/materials/mat 2/diffuse 2.png using Guid(fb7ab64004c9ddb468bb43d2d3d0feed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0034bd92820f26081382d4503d361e7') in 0.021813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/Low Poly Props/barrels/materials/mat 2/specular 2.png
+  artifactKey: Guid(142c9a7a116c62c419a81c53f827c73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Props/barrels/materials/mat 2/specular 2.png using Guid(142c9a7a116c62c419a81c53f827c73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daf20757ea55d5654a52832acd73d76') in 0.034943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.822070 seconds.
+  path: Assets/Asset Packs/Low Poly Props/box 1/Materials/box c Diffuse 5 + ao.png
+  artifactKey: Guid(1aa342048ca5a1f418df850e2d383afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Props/box 1/Materials/box c Diffuse 5 + ao.png using Guid(1aa342048ca5a1f418df850e2d383afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f434ccff2fbb73a6deaa9a14fd02146') in 0.029092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/Low Poly Props/box 1/Materials/box_1_mat_1.mat
+  artifactKey: Guid(8e4fa128aeecb92469aa9fc83c7586fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Props/box 1/Materials/box_1_mat_1.mat using Guid(8e4fa128aeecb92469aa9fc83c7586fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbefb97200d7d1bebfde11dd07b5abf') in 0.218446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.909020 seconds.
+  path: Assets/Asset Packs/Low Poly Props/concrete_1/Materials/diffuse.png
+  artifactKey: Guid(22196cf2daa203449b79e74bdc482374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Props/concrete_1/Materials/diffuse.png using Guid(22196cf2daa203449b79e74bdc482374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3f90f4e95edff3cc4d487d577c5bbe') in 0.026576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Asset Packs/Low Poly Props/concrete_1/Materials/normal.png
+  artifactKey: Guid(82ab04e82c1543349a6c6ef6144ee0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Props/concrete_1/Materials/normal.png using Guid(82ab04e82c1543349a6c6ef6144ee0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb9367424b8dd534db7c3e336904a86') in 0.035033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 35.172150 seconds.
+  path: Assets/Asset Packs/Low Poly Props/locker/material A/diffuse.png
+  artifactKey: Guid(d05d7f62a2218f345b57e913f455b9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Props/locker/material A/diffuse.png using Guid(d05d7f62a2218f345b57e913f455b9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc95a3373a05826fca8721847983d09') in 0.049134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Asset Packs/Low Poly Props/locker/material A/normal.png
+  artifactKey: Guid(cf897678ad9a414489aa18ea5dfa3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Props/locker/material A/normal.png using Guid(cf897678ad9a414489aa18ea5dfa3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c851dc5203501e7b893f46d5bac011') in 0.051569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
